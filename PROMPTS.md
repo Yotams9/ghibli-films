@@ -59,3 +59,12 @@
 > רכיב Navigation ב-src/components עם NavLink — כרגע קישור אחד "Films" ל-"/" (קישורים נוספים יתווספו עם העמודים). FilmCard הופך ל-Link לעמוד הסרט.
 > הרשימה נשארת ב-useState ב-App.tsx ועוברת ב-props. בלי fetch, בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
 > </pasted_content id="eca1">
+
+**11:22 · claude**
+
+> <pasted_content id="eca1">
+> בצע את משימה 3 מ-tasks.md בלבד.
+> ב-App.tsx: שלושה useState — films (מערך ריק בהתחלה), loading (true), error (מחרוזת ריקה) — ו-useEffect אחד עם fetch ל-https://ghibliapi.vercel.app/films; אם התשובה לא ok או ה-fetch נכשל, שמור הודעת שגיאה; בסיום כבה את loading. זה ה-fetch היחיד באפליקציה.
+> צור רכיבים בקבצים נפרדים: Loader (טקסט "Loading films…") ו-ErrorMessage (מקבל message ב-props). ב-App הצג Loader בזמן טעינה, ErrorMessage אם יש שגיאה, ואחרת את ה-Routes — שלושה מצבים נפרדים על המסך.
+> מחק את src/data/films.json ואת הייבוא שלו. בלי async בתוך useEffect ישירות (פונקציה פנימית או then), בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
+> </pasted_content id="eca1">
