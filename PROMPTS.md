@@ -131,3 +131,9 @@
 > 7. Process: built one task at a time per tasks.md with a commit per task; planning and review happened in a separate chat, implementation in Claude Code; every prompt is logged automatically in PROMPTS.md. Link PRD.md, tasks.md and PROMPTS.md.
 > Do not touch any other file. Finish with a three-sentence summary. Do not commit.
 > </pasted_content id="eca1">
+
+**13:24 · הערה שלי**
+
+> הבדיקה הסופית שלי: עברתי על כל העמודים בכרום עם הקונסול פתוח ולא היו שגיאות.
+> CSS תקין — אחרי הצרה של החלון יש גלילה אנכית בלבד, בלי גלילה אופקית.
+> 8 הבדיקות עוברות ב-Vitest UI. לא שיניתי קוד; התיקונים היחידים שהיו הם ב-tasks.md אחרי ביקורת התכנון.
