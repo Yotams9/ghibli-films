@@ -68,3 +68,13 @@
 > צור רכיבים בקבצים נפרדים: Loader (טקסט "Loading films…") ו-ErrorMessage (מקבל message ב-props). ב-App הצג Loader בזמן טעינה, ErrorMessage אם יש שגיאה, ואחרת את ה-Routes — שלושה מצבים נפרדים על המסך.
 > מחק את src/data/films.json ואת הייבוא שלו. בלי async בתוך useEffect ישירות (פונקציה פנימית או then), בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
 > </pasted_content id="eca1">
+
+**11:29 · claude**
+
+> <pasted_content id="eca1">
+> Do task 4 from tasks.md only.
+> Create src/utils/filterFilms.ts with a pure function filterFilms(films, query, director): title match is case-insensitive substring; director "" means all; both filters apply together. No React in this file.
+> Create a SearchBar component (separate file) with a text input and a director select; it receives query, director, the list of directors and two change handlers as props. Derive the unique directors from the films list in HomePage.
+> Keep the search state (query, director) in HomePage with useState; HomePage calls filterFilms and passes the result to FilmList. Show "No films found" when the result is empty.
+> No any, minimum code. Finish with a three-sentence summary of what changed. Do not commit.
+> </pasted_content id="eca1">
