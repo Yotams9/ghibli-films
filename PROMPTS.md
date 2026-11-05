@@ -87,3 +87,12 @@
 > Create src/utils/filterFilms.test.ts with a small array of 3–4 Film objects (build them with the Film type, fill all fields with short strings) and 5 tests: empty query and empty director returns all; title search; case-insensitive search; director filter; title and director together. Use clear test names.
 > Make sure tsc -b still passes (exclude test files from the app tsconfig if needed) and npm test shows 5 passing. No any, minimum code. Finish with a three-sentence summary. Do not commit.
 > </pasted_content id="eca1">
+
+**11:43 · claude**
+
+> <pasted_content id="eca1">
+> Do task 6 from tasks.md only.
+> Create src/utils/computeStats.ts with a pure function computeStats(films) that returns: filmsPerDirector (director → count), averageScore (mean of Number(rt_score), rounded to one decimal), and longestFilm (the film with the largest Number(running_time), or null for an empty list). Use Number() because the API returns strings. No React in this file.
+> Create src/pages/StatsPage.tsx at route /stats: receives films as props, calls computeStats, and shows a small table of films per director, the average score, and the longest film's title linking to its film page.
+> Add a "Stats" NavLink to Navigation. Add src/utils/computeStats.test.ts with 3 tests (films per director, average score, longest film) using a small Film array — reuse the same makeFilm pattern as the filterFilms test. No any, minimum code. Finish with a three-sentence summary. Do not commit.
+> </pasted_content id="eca1">
