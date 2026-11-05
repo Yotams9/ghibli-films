@@ -117,3 +117,17 @@
 > Add exactly one media query for narrow screens (max-width: 600px): search bar stacks vertically, film page image goes full width above the text, body padding shrinks. No horizontal scroll at 375px.
 > Target about 60–80 added lines total. Finish with a three-sentence summary. Do not commit.
 > </pasted_content id="eca1">
+
+**12:05 · claude**
+
+> <pasted_content id="eca1">
+> Do task 10 from tasks.md only. Rewrite README.md from scratch (replace the Vite template text). Write it in English, short and concrete:
+> 1. "Ghibli Films" — one paragraph: a master-detail React app for Studio Ghibli films (list, search and director filter, film details, stats, random pick, 404).
+> 2. Pages table: route → page → what you see (/, /films/:id, /stats, /random, *).
+> 3. Data source: https://ghibliapi.vercel.app/films — public, no key; one fetch in App.tsx inside useEffect; rt_score and running_time arrive as strings and are converted with Number().
+> 4. Run: npm install, npm run dev, npm run build. Test: npm test, npm run test:ui (Vitest UI in the browser). 8 tests on filterFilms and computeStats.
+> 5. Project structure: a short tree of src/ with one line per file.
+> 6. Tech: React + Vite + TypeScript, React Router, Vitest. No other libraries, no any.
+> 7. Process: built one task at a time per tasks.md with a commit per task; planning and review happened in a separate chat, implementation in Claude Code; every prompt is logged automatically in PROMPTS.md. Link PRD.md, tasks.md and PROMPTS.md.
+> Do not touch any other file. Finish with a three-sentence summary. Do not commit.
+> </pasted_content id="eca1">
