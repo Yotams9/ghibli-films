@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import type { Film } from '../types'
+import NotFoundPage from './NotFoundPage'
 
 type FilmPageProps = {
   films: Film[]
@@ -10,12 +11,7 @@ function FilmPage({ films }: FilmPageProps) {
   const film = films.find((f) => f.id === id)
 
   if (!film) {
-    return (
-      <>
-        <h1>Film not found</h1>
-        <Link to="/">Back to all films</Link>
-      </>
-    )
+    return <NotFoundPage />
   }
 
   return (

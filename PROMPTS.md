@@ -102,3 +102,9 @@
 > Do task 7 from tasks.md only.
 > Create src/pages/RandomPage.tsx at route /random: receives films as props and keeps the picked film in useState (null at first). A button "Pick a random film" chooses a random index with Math.random and stores that film. When a film is picked, show it with the existing FilmCard component (which already links to the film page). Before the first click, show a short hint text.
 > Add a "Random" NavLink to Navigation. No new utilities, no any, minimum code. Finish with a three-sentence summary. Do not commit.
+
+**11:51 · claude**
+
+> Do task 8 from tasks.md only.
+> Create src/pages/NotFoundPage.tsx: a heading "Page not found", one line of text, and a Link back to "/". Add a route with path="*" in App.tsx that renders it.
+> In FilmPage, when the id does not match any film, render NotFoundPage instead of the current inline "Film not found" message (and remove that inline message). No any, minimum code. Finish with a three-sentence summary. Do not commit.
