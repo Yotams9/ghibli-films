@@ -50,3 +50,12 @@
 > ב-App.tsx החזק את הרשימה ב-useState (ערך התחלתי מה-JSON) והעבר אותה ל-FilmList ב-props. הסר את תוכן הדמו של Vite (מונה, לוגואים, App.css).
 > בלי React Router עדיין, בלי fetch, בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
 > </pasted_content id="eca1">
+
+**11:16 · claude**
+
+> <pasted_content id="eca1">
+> בצע את משימה 2 מ-tasks.md בלבד.
+> התקן react-router-dom. BrowserRouter ב-main.tsx, Routes ב-App.tsx. צור בתיקיית src/pages את HomePage (מציג את FilmList) ואת FilmPage בנתיב /films/:id, שמקבלת את הרשימה ב-props, מוצאת את הסרט עם useParams ו-find, ומציגה כותרת, כותרת מקורית, תמונה, תיאור, במאי, מפיק, שנה, אורך וציון; אם ה-id לא קיים מציגה הודעה "Film not found" עם קישור לדף הבית.
+> רכיב Navigation ב-src/components עם NavLink — כרגע קישור אחד "Films" ל-"/" (קישורים נוספים יתווספו עם העמודים). FilmCard הופך ל-Link לעמוד הסרט.
+> הרשימה נשארת ב-useState ב-App.tsx ועוברת ב-props. בלי fetch, בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
+> </pasted_content id="eca1">

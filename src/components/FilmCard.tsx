@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import type { Film } from '../types'
 
 type FilmCardProps = {
@@ -6,11 +7,11 @@ type FilmCardProps = {
 
 function FilmCard({ film }: FilmCardProps) {
   return (
-    <article className="film-card">
+    <Link to={`/films/${film.id}`} className="film-card">
       <img src={film.image} alt={`${film.title} poster`} />
       <h2>{film.title}</h2>
       <p>{film.release_date}</p>
-    </article>
+    </Link>
   )
 }
 
