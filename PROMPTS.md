@@ -41,3 +41,12 @@
 **11:01 · claude**
 
 > Not yet
+
+**11:07 · claude**
+
+> <pasted_content id="eca1">
+> בצע את משימה 1 מ-tasks.md בלבד.
+> צור src/data/films.json עם 3 סרטים לדוגמה באותו מבנה שדות של ה-API, type Film ב-src/types.ts, ורכיבים בקבצים נפרדים: FilmCard (פוסטר, כותרת, שנה) ו-FilmList (מקבל films ב-props, map עם key לפי id).
+> ב-App.tsx החזק את הרשימה ב-useState (ערך התחלתי מה-JSON) והעבר אותה ל-FilmList ב-props. הסר את תוכן הדמו של Vite (מונה, לוגואים, App.css).
+> בלי React Router עדיין, בלי fetch, בלי any, מינימום קוד. בסוף הסבר בשלושה משפטים מה השתנה. אל תעשה commit.
+> </pasted_content id="eca1">
