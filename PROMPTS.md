@@ -78,3 +78,12 @@
 > Keep the search state (query, director) in HomePage with useState; HomePage calls filterFilms and passes the result to FilmList. Show "No films found" when the result is empty.
 > No any, minimum code. Finish with a three-sentence summary of what changed. Do not commit.
 > </pasted_content id="eca1">
+
+**11:33 · claude**
+
+> <pasted_content id="eca1">
+> Do task 5 from tasks.md only.
+> Install vitest and @vitest/ui as dev dependencies. Add scripts: "test": "vitest run" and "test:ui": "vitest --ui". No globals config — import describe, it, expect from 'vitest' explicitly.
+> Create src/utils/filterFilms.test.ts with a small array of 3–4 Film objects (build them with the Film type, fill all fields with short strings) and 5 tests: empty query and empty director returns all; title search; case-insensitive search; director filter; title and director together. Use clear test names.
+> Make sure tsc -b still passes (exclude test files from the app tsconfig if needed) and npm test shows 5 passing. No any, minimum code. Finish with a three-sentence summary. Do not commit.
+> </pasted_content id="eca1">
