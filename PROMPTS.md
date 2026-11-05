@@ -108,3 +108,12 @@
 > Do task 8 from tasks.md only.
 > Create src/pages/NotFoundPage.tsx: a heading "Page not found", one line of text, and a Link back to "/". Add a route with path="*" in App.tsx that renders it.
 > In FilmPage, when the id does not match any film, render NotFoundPage instead of the current inline "Film not found" message (and remove that inline message). No any, minimum code. Finish with a three-sentence summary. Do not commit.
+
+**11:59 · claude**
+
+> <pasted_content id="eca1">
+> Do task 9 from tasks.md only — CSS in src/index.css only, no component changes, no new files, no libraries.
+> Keep the existing rules and add, minimally: a max-width container on main (about 1100px, centered); Navigation as a bar with background, padding and a visible active link; film cards with rounded corners, a subtle background and a slight hover effect; the film page with image and text side by side on wide screens; the search bar input and select with comfortable padding.
+> Add exactly one media query for narrow screens (max-width: 600px): search bar stacks vertically, film page image goes full width above the text, body padding shrinks. No horizontal scroll at 375px.
+> Target about 60–80 added lines total. Finish with a three-sentence summary. Do not commit.
+> </pasted_content id="eca1">
