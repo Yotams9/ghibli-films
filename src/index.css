@@ -77,3 +77,8 @@ body {
   text-align: left;
   padding: 0.25rem 1rem 0.25rem 0;
 }
+
+.random-pick {
+  max-width: 220px;
+  margin-top: 1rem;
+}

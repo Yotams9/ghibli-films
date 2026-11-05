@@ -96,3 +96,9 @@
 > Create src/pages/StatsPage.tsx at route /stats: receives films as props, calls computeStats, and shows a small table of films per director, the average score, and the longest film's title linking to its film page.
 > Add a "Stats" NavLink to Navigation. Add src/utils/computeStats.test.ts with 3 tests (films per director, average score, longest film) using a small Film array — reuse the same makeFilm pattern as the filterFilms test. No any, minimum code. Finish with a three-sentence summary. Do not commit.
 > </pasted_content id="eca1">
+
+**11:45 · claude**
+
+> Do task 7 from tasks.md only.
+> Create src/pages/RandomPage.tsx at route /random: receives films as props and keeps the picked film in useState (null at first). A button "Pick a random film" chooses a random index with Math.random and stores that film. When a film is picked, show it with the existing FilmCard component (which already links to the film page). Before the first click, show a short hint text.
+> Add a "Random" NavLink to Navigation. No new utilities, no any, minimum code. Finish with a three-sentence summary. Do not commit.

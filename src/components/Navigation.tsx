@@ -5,6 +5,7 @@ function Navigation() {
     <nav className="navigation">
       <NavLink to="/">Films</NavLink>
       <NavLink to="/stats">Stats</NavLink>
+      <NavLink to="/random">Random</NavLink>
     </nav>
   )
 }

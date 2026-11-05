@@ -7,6 +7,7 @@ import ErrorMessage from './components/ErrorMessage'
 import HomePage from './pages/HomePage'
 import FilmPage from './pages/FilmPage'
 import StatsPage from './pages/StatsPage'
+import RandomPage from './pages/RandomPage'
 
 function App() {
   const [films, setFilms] = useState<Film[]>([])
@@ -39,6 +40,7 @@ function App() {
             <Route path="/" element={<HomePage films={films} />} />
             <Route path="/films/:id" element={<FilmPage films={films} />} />
             <Route path="/stats" element={<StatsPage films={films} />} />
+            <Route path="/random" element={<RandomPage films={films} />} />
           </Routes>
         )}
       </main>
